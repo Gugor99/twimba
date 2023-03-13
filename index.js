@@ -33,7 +33,7 @@ function handleTweetBtnClick(){
       let newTweet = ''
                 newTweet = {
                     handle: `@Akuaku`,
-                    profilePic: `images/aku.png`,
+                    profilePic: `https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTkcQBCfmquldY44cEnx29Uyy7ZiVOl3OSh2MEw2c-GyQK2acTp`,
                     likes: 0,
                     retweets: 0,
                     tweetText: textInput.value,
@@ -65,7 +65,7 @@ function handleCommentClick(tweetId){
      if (commentInput){
          let newComment = {
                 handle: `@Akuaku`,
-                profilePic: `images/aku.png`,
+                profilePic: `https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTkcQBCfmquldY44cEnx29Uyy7ZiVOl3OSh2MEw2c-GyQK2acTp`,
                 tweetText: commentInput.value,
             }
         targetTweetObj.replies.push(newComment)
